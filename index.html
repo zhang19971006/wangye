@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.navigation{
+				position: fixed;
+				width: 100%;
+				height: 90px;
+				background-color:white ;
+			}
+			.navigation .navigation-content{
+				position: relative;
+			    width: 1140px;
+			    height: 80px;
+			    margin: 0 auto;
+				
+			}
+			.navigation .navigation-content .logo{
+				width: 220px;
+				height: 60px;
+				margin-top:20px;
+				display: inline-block;
+			}
+			.navigation .navigation-content ul{
+				position: absolute;
+				width: 600px;
+				height: 55px;
+				top: 24px;
+				right:-50px;
+				font-size:20px ;
+				
+			}
+			.navigation .navigation-content ul li {
+				
+				float: left;
+				width: 102px;
+				height: 50px;
+				text-align: center;
+			}
+			.navigation .navigation-content ul li a{
+				display: block;
+				margin-top: 15px;
+				height: 50px;
+			}
+			.navigation .navigation-content ul li:hover{
+				background-color: #EEEEEE;
+				text-decoration: none;
+			}
+			.navigation .navigation-content ul li:first-child{
+				width: 66px;
+				height: 50px;
+			}
+			.navigation .navigation-content ul li a:link{
+				text-decoration: none;
+				color:black;
+			}
+			
+			/*轮播图 开始*/
+             .banner{
+				width: 100%;
+				height: 635px;
+				background: url(img/Giwifibanner.png) no-repeat center center;
+				background-color: #a3b05e;
+				padding-top:120px;
+				
+				
+			}
+            .clr{
+	            clear: both;
+                }
+                .banner .indicator{
+				width: 120px;
+				height: 12px;
+				position: absolute;
+				bottom: 280px;
+				left: calc(50% - 60px);
+				/*margin-left: -60px;*/
+			}
+			.banner .indicator ul{
+				list-style: none;
+				width: 120px;
+				height: 12px;
+			}
+			.banner .indicator ul li{
+				width: 12px;
+				height: 12px;
+				background: #fdde90;
+				float: left;
+				border-radius: 50%;
+				margin-right: 15px;
+			}
+			.banner .indicator ul li:last-child{
+				margin-right: 0px;
+			}
+			.banner .indicator ul li.current{
+				background: #FFFFFF;
+			}
+			.banner .indicator ul li:hover{
+				cursor: pointer;
+			}
+			/*轮播图 结束*/
+			.demo{
+				width: 100%;
+				height: 240px;
+			}
+			.demo p{
+				width: 236px;
+				height: 62px;
+				margin-top:95px;
+				margin-left:830px ;
+				}		
+				/*内容*/	
+				.demo2{
+					width: 1584PX;
+					height: 850PX;
+					margin: 0PX auto;
+				}
+				.demo2 ul li{
+					float: left;
+				}
+				.demo2 ul li img{
+					width: 394px;
+					height: 394px;
+					display: block;
+				}
+				/*底部*/
+				.demo3{
+					width: 100%;
+					height: 276px;
+					background-color: #323239;
+				}
+				.demo3 table{
+					width: 294px;
+					height: 200px;
+					color: white;
+					margin-left: 202px;
+					padding-top: 45px;
+				}
+				
+				.a{
+					font-weight: 900;
+				}
+				.b{
+					font-size: 1px;
+				}
+				.c{
+					font-size: 17px;
+				}
+				.d{
+					width: 160px;
+					height: 185px;
+					float: right;
+					margin-top: -140px;
+					margin-right: 200px;
+				}
+		</style>
+	</head>
+	<body>
+			<nav class="navigation">
+				<div class="navigation-content">
+					<div class="logo">
+						<img src="img/logo.png" />
+					</div>
+				
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">解决方案</a></li>
+						<li><a href="#">成功案例</a></li>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">联系我们</a></li>
+						
+					</ul>
+			     </div>
+			</div>
+		</nav>
+       
+       		<div class="clr">
+       			
+       		</div>
+       	
+       <!--轮播图 开始-->
+         <div class="banner">
+			<div class="indicator">
+				<ul>
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		 <!--轮播图 结束-->
+		<!--内容-->
+		<div class="demo">
+			<p>
+				<img src="img/tmdzy.png" />
+			</p>
+		</div>
+		<div class="demo2">
+            <ul>
+            	<li>
+            		<img src="img/jxcjdx1.png"/>
+            	</li>
+            	<li>
+            		<img src="img/jxcjdx2.png" />
+            	</li>
+            	<li>
+            		<img src="img/jldxzhxy1.png" />
+            	</li>
+            	<li>
+            		<img src="img/jldxzhxy2.png"/>
+            	</li>
+            	<li>
+            		<img src="img/sdkjdx2.png"/>
+            	</li>
+            	<li>
+            		<img src="img/sdkjdx1.png"/>
+            	</li>
+            	<li>
+            		<img src="img/gzgbdsdx2.png"/>
+            	</li>
+            	<li>
+            		<img src="img/gzgbdsdx1.png" />
+            	</li>
+            </ul>				
+		</div>
+		<div class="demo3">
+			
+			<table>
+				<tr><td class="c">公司概况</td></tr>
+				<tr><td class="c">合作优势</td><td class="a">全国热线</td></tr>
+				<tr><td class="c">诚聘英才</td><td class="a">400-038-5858</td></tr>
+				<tr><td class="c">产品介绍</td><td class="b">Copyright©2005-2017 GiWiFi版权所有</td></tr>
+				<tr><td><img src="img/pic.gif" width="68px" height="18px"/></td><td class="b">沪ICP备08100239号</td></tr>
+			</table>
+			<div class="d">
+				<ul>
+					
+					<li><img src="img/qcode.png"width="160px"style="color: ;" /></li>
+					<li style="text-align: center;color: white;" >微信公众号</li>
+				</ul>
+				
+			</div>
+		</div>
+	</body>
+</html>
